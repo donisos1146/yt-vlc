@@ -48,7 +48,7 @@ function ytdlp:get_fmt( res )
 		fmt = " -S \"%s\" "
 		return fmt:format( codec )
 	end
-	--return fmt:gsub( "%%d", self.prefres )
+	return ""
 end
 
 function ytdlp:get_format_url( format )
